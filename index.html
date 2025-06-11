@@ -18,16 +18,18 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta e poder fazer as configurações no seu ambiente</p>
-                <form action="#" method="post">
-                    <p>
-                        <label for="inome"><span class="material-symbols-outlined">person</span></label>
-                        <input type="text" name="inome" id="nome" autocomplete="on" placeholder="Nome" required>
-                    </p>
-                    <p>
-                        <label for="isenha"><span class="material-symbols-outlined">key</span></label>
-                        <input type="password" name="isenha" id="senha" placeholder="sua senha" required>
-                    </p>
+                <form action="#" method="post" autocomplete="on">
+                    <div>
+                        <label for="ilogin"><span class="material-symbols-outlined">person</span></label>
+                        <input type="email" name="login" id="ilogin" autocomplete="email" placeholder="emeail@gmail" required maxlength="30">
+                    </div>
+                    <div>
+                        <label for="isenha"><span class="material-symbols-outlined">vpn_key</span></label>
+                        <input type="password" name="isenha" id="senha" placeholder="sua senha" required autocomplete="current-password" minlength="8" maxlength="20">
+                    </div>
                     <input type="submit" value="Entrar">
+                    <a href="esqueci.html">
+                        Esqueci a senha <i class="material-symbols-outlined">mail</i></a>
                 </form>
             </div>
         </section>
