@@ -16,7 +16,8 @@
         background-image: linear-gradient(to top, var(--cor1), var(--cor2));
     }
     section#login{
-        width: 90vw;   
+        width: 90vw; 
+        height: 270px;  
     }
 
     section#login > div#imagem {
@@ -37,7 +38,8 @@
         background-image: linear-gradient(to bottom, var(--cor1), var(--cor2));
     } 
     section#login{
-        width: 950px;   
+        width: 950px;
+           
     }
 
     section#login > div#imagem {
